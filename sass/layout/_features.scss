@@ -1,0 +1,41 @@
+.features {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.features__title {
+    @include font(700,$fs,1.14);
+
+    text-transform: uppercase;
+    color: var(--title-text-color);
+
+    margin-bottom: 10px;
+}
+
+.features__list {
+    display: flex;
+}
+
+.features__item {
+    width: 270px;
+    
+    &:not(:nth-child(4n)) {
+    margin-right: 30px;
+}
+
+}
+
+
+.features__thumb {
+    height: 120px;
+    text-align: center;
+    background-color: var(--gray-background);
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+.features__desc {
+    line-height: 1.71;
+}

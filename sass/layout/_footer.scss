@@ -1,0 +1,19 @@
+.footer {
+    background-color: var(--dark-background);
+
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer__flex-wrapper {
+    display: flex;
+    align-items: baseline;
+}
+
+.footer__logo {
+    color: var(--the-lightest);
+
+    display: inline-block;
+    margin-right: 0;
+    margin-bottom: 20px;
+}

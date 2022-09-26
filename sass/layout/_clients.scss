@@ -1,0 +1,33 @@
+.clients {
+    text-align: center;
+    padding-top: 88px;
+    padding-bottom: 94px;
+}
+
+.clients__list {
+    display: flex;
+    gap: 30px;
+}
+
+.clients__item {
+    @extend %align;
+    
+    width: 170px;
+    height: 92px;
+    color: var(--icons-fill);
+    border: 1px solid var(--icons-fill);
+    border-radius: 4px;
+    transition: border-color var(--transition-dur-and-func),
+        color var(--transition-dur-and-func);
+
+    &:hover,
+    &:focus {
+        border-color: var(--accent-color);
+        color: var(--accent-color);
+}
+}
+
+.clients__logo {
+    fill: currentColor;
+}
+

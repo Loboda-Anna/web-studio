@@ -1,0 +1,20 @@
+.socials {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-btn {
+    @extend %align;
+    
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    
+    transition: background-color var(--transition-dur-and-func),
+        color var(--transition-dur-and-func);
+}
+
+.btn-icon {
+    fill: currentColor;
+}
