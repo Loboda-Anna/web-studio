@@ -19,10 +19,11 @@
 .modal-form__field-name {
     display: inline-block;
 
-    @include font($fs: 14px, $lh: 1.16);
+    @include font($fs: 12px, $lh: 1.17);
 
     letter-spacing: 0.01em;
     margin-bottom: 4px;
+    
 }
 
 .modal-form__input {
@@ -99,12 +100,13 @@
 }
 
 .user-consent__desc {
-    @include font($lh: 1.71 );
+    @include font($fs:12px, $lh: 1.17 );
+    
 
 }
 
 .user-consent__document {
-    @include font($lh: 1.71);
+    @include font($fs: 12px, $lh: 1.17);
     
     text-decoration-line: underline;
 
@@ -139,3 +141,22 @@
     align-self: center;
     min-width: 200px;
 }
+@media screen and (min-width:1200px) {
+    .modal-form__field-name {
+
+    @include font($fs: 14px, $lh: 1.16);
+
+
+}
+    .user-consent__desc {
+    @include font($lh: 1.71);
+
+
+}
+.user-consent__document {
+    @include font($lh: 1.71);
+
+}
+}
+
+
