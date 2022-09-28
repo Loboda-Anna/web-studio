@@ -1,35 +1,69 @@
-.contacts {
+@media screen and (max-width: 767px) {
+    .contacts {
+        display: none;
+    }
+}
+@media screen and (min-width: 768px){
+    .contacts {
+        display: block;
+        margin-left: auto;
+    } 
+
+    .contacts__link {
+        
+        color: var(--primary-text-color);
+    }
+    
+    .contacts__icon {
+        fill: currentColor;
+        margin-right: 8px;
+    }
+}
+@media screen and (max-width: 1199px){
+        .email .contacts__link{
+        padding-top:15px ;
+        padding-bottom: 5px;
+    }
+    .tel-number .contacts__link{
+        padding-top:5px ;
+        padding-bottom: 15px;
+    }
+}
+@media screen and (min-width: 1200px){
+ .contacts {
     display: flex;
     margin-left: auto;
     gap: 30px;
     align-items: center;
-}
-
-.contacts__link {
+    justify-content: center;
+ }
+ .contacts__link{
     display: flex;
     align-items: center;
-
-    color: var(--primary-text-color);
+    padding-top: 32px;
+    padding-bottom: 31px;
 }
+ .contacts__icon {
 
-.contacts__icon {
-    fill: currentColor;
     margin-right: 10px;
+    }
+
 }
 
-.footer .contacts {
-    display: block;
-    margin-top: 9px;
-    font-style: normal;
 
-    @include font(400,$lh:1.71);
+// .footer .contacts {
+//     display: block;
+//     margin-top: 9px;
+//     font-style: normal;
+
+//     @include font(400,$lh:1.71);
     
-    color: rgba(255, 255, 255, 0.6);
-    transition: color var(--transition-dur-and-func);
+//     color: rgba(255, 255, 255, 0.6);
+//     transition: color var(--transition-dur-and-func);
     
-    &:hover,
-    &:focus {
-    color: var(--accent-color);
-}
+//     &:hover,
+//     &:focus {
+//     color: var(--accent-color);
+// }
 
-}
+// }

@@ -18,6 +18,13 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),
+screen and (min-resolution: 192dpi) and (min-width: 1200px),
+screen and (min-resolution: 2dppx) and (min-width: 1200px) {
+    .hero__background {
+        background-image: url('../images/hero-desctop@2x.jpg');
+    }
+}
 
 .hero__title {
     @include font(900,44px,1.36);

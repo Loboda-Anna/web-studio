@@ -1,14 +1,14 @@
-.address{
-        font-style: normal;
-        @include font($lh:1.71);
+// .address{
+//         font-style: normal;
+//         @include font($lh:1.71);
 
 
-        color: var(--the-lightest);
-        transition: color var(--transition-dur-and-func);
+//         color: var(--the-lightest);
+//         transition: color var(--transition-dur-and-func);
 
-        &:hover,
-        &:focus {
-            color: var(--accent-color);
-        }
-    }
+//         &:hover,
+//         &:focus {
+//             color: var(--accent-color);
+//         }
+//     }
         
