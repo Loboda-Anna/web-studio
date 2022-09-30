@@ -53,7 +53,8 @@
 
 .footer .contacts {
     display: block;
-    margin-top: 9px;
+    text-align: center;
+    margin-top: 8px;
     font-style: normal;
 
     @include font(400,$lh:1.71);
@@ -67,19 +68,10 @@
 }
 
 }
-// .footer .contacts {
-//     display: block;
-//     margin-top: 9px;
-//     font-style: normal;
-
-//     @include font(400, $lh: 1.71);
-
-//     color: rgba(255, 255, 255, 0.6);
-//     transition: color var(--transition-dur-and-func);
-
-//     &:hover,
-//     &:focus {
-//         color: var(--accent-color);
-//     }
-
-// }
+@media  screen and (min-width:1200px) {
+    .footer .contacts {
+        text-align: start;
+        margin-top: 9px;
+    
+}
+}

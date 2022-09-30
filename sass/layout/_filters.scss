@@ -1,7 +1,10 @@
 .filters {
     display: flex;
-    gap: 8px;
-    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 8px;
+    row-gap: 15px;
+    justify-content: flex-start;
+
 
     margin-bottom: 50px;
 }
@@ -37,6 +40,10 @@
         0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 }
-
+@media screen and (min-width:620px){
+    .filters{
+        justify-content: center;
+    }
+}
 
 
