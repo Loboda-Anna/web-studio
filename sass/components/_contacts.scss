@@ -51,19 +51,35 @@
 }
 
 
+.footer .contacts {
+    display: block;
+    margin-top: 9px;
+    font-style: normal;
+
+    @include font(400,$lh:1.71);
+    
+    color: rgba(255, 255, 255, 0.6);
+    transition: color var(--transition-dur-and-func);
+    
+    &:hover,
+    &:focus {
+    color: var(--accent-color);
+}
+
+}
 // .footer .contacts {
 //     display: block;
 //     margin-top: 9px;
 //     font-style: normal;
 
-//     @include font(400,$lh:1.71);
-    
+//     @include font(400, $lh: 1.71);
+
 //     color: rgba(255, 255, 255, 0.6);
 //     transition: color var(--transition-dur-and-func);
-    
+
 //     &:hover,
 //     &:focus {
-//     color: var(--accent-color);
-// }
+//         color: var(--accent-color);
+//     }
 
 // }

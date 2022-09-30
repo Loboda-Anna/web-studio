@@ -4,7 +4,8 @@
 
 .subscr-form {
     display: flex;
-    align-items: flex-end;
+    flex-direction: column;
+    align-items: center;
 }
 
 .subscr-form__title {
@@ -21,7 +22,6 @@
 .subscr-form__email-field {
     height: 50px;
     width: 358px;
-    margin-right: 12px;
     padding: 15px 16px;
 
     color: var(--the-lightest);
@@ -43,3 +43,48 @@
     height: 24px;
     margin-left: 10px;
 }
+// .subscription {
+//     margin-left: auto;
+// }
+
+// .subscr-form {
+//     display: flex;
+//     align-items: flex-end;
+// }
+
+// .subscr-form__title {
+//     display: block;
+//     margin-bottom: 20px;
+//     @include font(700, 14px, 1.14);
+
+
+//     text-transform: uppercase;
+
+//     color: var(--the-lightest);
+// }
+
+// .subscr-form__email-field {
+//     height: 50px;
+//     width: 358px;
+//     margin-right: 12px;
+//     padding: 15px 16px;
+
+//     color: var(--the-lightest);
+//     background-color: var(--dark-background);
+//     border: 1px solid rgba(255, 255, 255, 0.3);
+//     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+//     border-radius: 4px;
+// }
+
+// .subscr-form__btn {
+//     @extend %align;
+
+//     min-width: 200px;
+//     padding: 10px 28px;
+// }
+
+// .subscr-form__icon {
+//     width: 24px;
+//     height: 24px;
+//     margin-left: 10px;
+// }
