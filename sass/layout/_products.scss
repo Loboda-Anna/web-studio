@@ -30,3 +30,9 @@
     background-color: rgba(47, 48, 58, 0.8);
     color: var(--the-lightest);
 }
+@media screen and (max-width:1199px){
+    .products {
+        display: none;
+    }
+    
+}

@@ -100,7 +100,7 @@
                 <button class="button" type="button" data-modal-open> Замовити послугу </button>
             </div>
         </section> 
-        <!-- <section class="features">
+        <section class="features">
             <div class="container">
                     <h2 class="hidden-title">Особливості</h2>
                     <ul class="features__list">
@@ -146,21 +146,50 @@
             <div class="container">
                 <h2 class="section-title">Чим ми займаємося</h2>
                 <ul class="products__list">
-                <li class="products__item"> <img src="images/box-1-2.jpg" alt="процес написання коду" width="370" height="294">
+                <li class="products__item"> 
+                    <picture>
+                        <source srcset="./images/product-1-desktop.webp 1x, ./images/product-1-desktop@2x.webp 2x" media="(min-width: 1200px)"
+                            type="image/webp" />
+                        <source srcset="./images/product-1-desctop.jpg 1x, ./images/images/product-1-desktop@2x.jpg 2x" media="(min-width: 1200px)" />
+                    <img src="./images/product-1-desctop.jpg" alt="процес написання коду" width="370" height="294"></picture>
                 <p class="products__lable">Десктопні додатки</p></li>
-                <li class="products__item"> <img src="images/box-2-2.jpg" alt="робота з макетами" width="370" height="294">
+                <li class="products__item">
+                    <picture>
+                        <source srcset="./images/product-2-desktop.webp 1x, ./images/product-2-desktop@2x.webp 2x"
+                            media="(min-width: 1200px)" type="image/webp" />
+                        <source srcset="./images/product-2-desctop.jpg 1x, ./images/images/product-2-desktop@2x.jpg 2x"
+                            media="(min-width: 1200px)" />
+                    <img src="./images/product-2-desctop.jpg" alt="робота з макетами" width="370" height="294"></picture>
                 <p class="products__lable">Мобільні додатки</p></li>
-                <li class="products__item"> <img src="images/box-3-2.jpg" alt="підбір кольору" width="370" height="294">
+                <li class="products__item"> 
+                    <picture>
+                        <source srcset="./images/product-3-desktop.webp 1x, ./images/product-3-desktop@2x.webp 2x"
+                            media="(min-width: 1200px)" type="image/webp" />
+                        <source srcset="./images/product-3-desctop.jpg 1x, ./images/images/product-3-desktop@2x.jpg 2x"
+                            media="(min-width: 1200px)" />
+                    <img src="./images/product-3-desctop.jpg" alt="підбір кольору" width="370" height="294"></picture>
                 <p class="products__lable">Дизайнерські рішення</p></li>
                 </ul>
             </div>
-        </section>
+        </section> 
         <section class="team">
             <div class="container">
             <h2 class="section-title">Наша команда</h2>
             <ul class="team-cards">
                 <li class="team-card">
-                    <img src="images/img-1.jpg" alt="чоловік з бородою в окулярах і коричневій сорочці " width="270" height="260">
+                        <picture>
+                            <source srcset="./images/team-1-desktop.webp 1x, ./images/team-1-desktop@2x.webp 2x" media="(min-width: 1200px)"
+                                type="image/webp" />
+                            <source srcset="./images/team-1-desktop.jpg 1x, ./images/team-1-desktop@2x.jpg 2x" media="(min-width: 1200px)" />
+                        
+                            <source srcset="./images/team-1-tablet.webp 1x, ./images/team-1-tablet@2x.webp 2x" media="(min-width: 768px)"
+                                type="image/webp" />
+                            <source srcset="./images/team-1-tablet.jpg 1x, ./images/team-1-tablet@2x.jpg 2x" media="(min-width: 768px)" />
+                        
+                            <source srcset="./images/team-1-mobile.webp 1x, ./images/team-1-mobile@2x.webp 2x" media="(max-width: 767px)"
+                                type="image/webp" />
+                            <source srcset="./images/team-1-mobile.jpg 1x, ./images/team-1-mobile@2x.jpg 2x" media="(max-width: 767px)" />
+                            <img src="images/team-1-mobile.jpg" alt="чоловік з бородою в окулярах і коричневій сорочці "></picture>
                     <div class="team-card__wrapper">
                         <h3 class="team-card__person">Ігор Дем'яненко</h3> 
                         <p class="team-card__desc" lang="en">Product Designer</p>
@@ -193,7 +222,20 @@
                     </ul></div>
                 </li>
                     
-                <li class="team-card"><img src="images/img-2.jpg" alt="блондинка в окулярах і чорному жакеті посміхається " width="270" height="260">
+                <li class="team-card">
+                    <picture>
+                        <source srcset="./images/team-2-desktop.webp 1x, ./images/team-2-desktop@2x.webp 2x" media="(min-width: 1200px)"
+                            type="image/webp" />
+                        <source srcset="./images/team-2-desktop.jpg 1x, ./images/team-2-desktop@2x.jpg 2x" media="(min-width: 1200px)" />
+                    
+                        <source srcset="./images/team-2-tablet.webp 1x, ./images/team-2-tablet@2x.webp 2x" media="(min-width: 768px)"
+                            type="image/webp" />
+                        <source srcset="./images/team-2-tablet.jpg 1x, ./images/team-2-tablet@2x.jpg 2x" media="(min-width: 768px)" />
+                    
+                        <source srcset="./images/team-2-mobile.webp 1x, ./images/team-2-mobile@2x.webp 2x" media="(max-width: 767px)"
+                            type="image/webp" />
+                        <source srcset="./images/team-2-mobile.jpg 1x, ./images/team-2-mobile@2x.jpg 2x" media="(max-width: 767px)" />
+                    <img src="images/team-2-mobile.jpg" alt="блондинка в окулярах і чорному жакеті посміхається " ></picture>
                 <div class="team-card__wrapper">
                     <h3 class="team-card__person">Ольга Рєпіна</h3>
                     <p class="team-card__desc" lang="en">Frontend Developer</p>
@@ -228,7 +270,20 @@
                 </li>
             </ul></div>
             </li>
-                <li class="team-card"><img src="images/img-3.jpg" alt="чоловік в блакитній сорочці посміхається " width="270" height="260">
+                <li class="team-card">
+                    <picture>
+                        <source srcset="./images/team-3-desktop.webp 1x, ./images/team-3-desktop@2x.webp 2x" media="(min-width: 1200px)"
+                            type="image/webp" />
+                        <source srcset="./images/team-3-desktop.jpg 1x, ./images/team-3-desktop@2x.jpg 2x" media="(min-width: 1200px)" />
+                    
+                        <source srcset="./images/team-3-tablet.webp 1x, ./images/team-3-tablet@2x.webp 2x" media="(min-width: 768px)"
+                            type="image/webp" />
+                        <source srcset="./images/team-3-tablet.jpg 1x, ./images/team-3-tablet@2x.jpg 2x" media="(min-width: 768px)" />
+                    
+                        <source srcset="./images/team-3-mobile.webp 1x, ./images/team-3-mobile@2x.webp 2x" media="(max-width: 767px)"
+                            type="image/webp" />
+                        <source srcset="./images/team-3-mobile.jpg 1x, ./images/team-3-mobile@2x.jpg 2x" media="(max-width: 767px)" />
+                    <img src="images/team-3-mobile.jpg" alt="чоловік в блакитній сорочці посміхається " ></picture>
                 <div class="team-card__wrapper">
                     <h3 class="team-card__person">Микола Тарасов</h3> 
                     <p class="team-card__desc" lang="en">Marketing</p>
@@ -263,7 +318,20 @@
                     </li>
                 </ul></div>
             </li>
-            <li class="team-card"><img src="images/img-4.jpg" alt="чоловік з бородою в окулярах і чорній футболці  " width="270" height="260">
+            <li class="team-card">
+                <picture>
+                    <source srcset="./images/team-4-desktop.webp 1x, ./images/team-4-desktop@2x.webp 2x" media="(min-width: 1200px)"
+                        type="image/webp" />
+                    <source srcset="./images/team-4-desktop.jpg 1x, ./images/team-4-desktop@2x.jpg 2x" media="(min-width: 1200px)" />
+                
+                    <source srcset="./images/team-4-tablet.webp 1x, ./images/team-4-tablet@2x.webp 2x" media="(min-width: 768px)"
+                        type="image/webp" />
+                    <source srcset="./images/team-4-tablet.jpg 1x, ./images/team-4-tablet@2x.jpg 2x" media="(min-width: 768px)" />
+                
+                    <source srcset="./images/team-4-mobile.webp 1x, ./images/team-4-mobile@2x.webp 2x" media="(max-width: 767px)"
+                        type="image/webp" />
+                    <source srcset="./images/team-4-mobile.jpg 1x, ./images/team-4-mobile@2x.jpg 2x" media="(max-width: 767px)" />
+                <img src="images/team-4-mobile.jpg" alt="чоловік з бородою в окулярах і чорній футболці  " ></picture>
                 <div class="team-card__wrapper">
                     <h3 class="team-card__person">Михайло Єрмаков</h3> 
                     <p class="team-card__desc" lang="en">UI Designer</p>
@@ -300,8 +368,8 @@
             </li>
             </ul>
             </div>
-        </section>
-        <section class="clients">
+        </section> 
+        <!-- <section class="clients">
             <div class="container">
                 <h2 class="section-title">Постійні клієнти</h2>  
                 <ul class="clients__list">
@@ -406,7 +474,7 @@
             </div>
             </div>
         </div>
-    </footer> --> 
+    </footer> -->  
     <div class="backdrop is-hidden" data-modal>
         <div class="modal-window">
             <button type="button" class="modal-window__close-btn" data-modal-close >
