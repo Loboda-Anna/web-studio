@@ -1,12 +1,5 @@
 
 
-.subscr-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-}
-
 .subscr-form__title {
     text-align: center;
     display: block;
@@ -34,7 +27,9 @@
 
 .subscr-form__btn {
     @extend %align;
-    
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
     min-width: 200px;
     padding: 10px 28px;
 }
@@ -54,6 +49,7 @@
 }
 @media screen and (min-width:1200px) {
     .subscr-form {
+            display: flex;
             flex-direction: row;
             align-items: flex-end;
             gap: 12px;
@@ -64,4 +60,5 @@
     .subscr-form__email-field{
         width: 358px;
     }
+
 }
