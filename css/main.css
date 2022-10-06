@@ -701,6 +701,15 @@ img {
   }
 }
 @media screen and (min-width: 1200px) {
+  .hero {
+    padding-top: 200px;
+  }
+  .hero__title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    width: 696px;
+  }
   .hero__background {
     height: 600px;
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero-desktop.jpg");
