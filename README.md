@@ -1,1 +1,2 @@
-# FS-course
+#Study project
+
