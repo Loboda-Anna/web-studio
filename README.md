@@ -3,5 +3,5 @@
 ## technologies that are used:
 - HTML;
 - CSS/SASS;
-- JavaScript
-
+- JavaScript;
+- Adaptive Website Design
